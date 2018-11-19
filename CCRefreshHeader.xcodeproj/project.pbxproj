@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DCD442F21A29DF600170DF6 /* CCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD442D21A29DF600170DF6 /* CCPickerView.m */; };
+		3DCD444121A2A07300170DF6 /* UIScrollView+CCRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD443521A2A07300170DF6 /* UIScrollView+CCRefresh.m */; };
+		3DCD444221A2A07300170DF6 /* UIView+CCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD443621A2A07300170DF6 /* UIView+CCExtension.m */; };
+		3DCD444321A2A07300170DF6 /* CCRereshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD443821A2A07300170DF6 /* CCRereshHeader.m */; };
+		3DCD444421A2A07300170DF6 /* CCLoadingComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD443A21A2A07300170DF6 /* CCLoadingComponent.m */; };
+		3DCD444521A2A07300170DF6 /* CCLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD443B21A2A07300170DF6 /* CCLoadingIndicator.m */; };
+		3DCD444621A2A07300170DF6 /* CCLoadingDots.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCD443C21A2A07300170DF6 /* CCLoadingDots.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DCD441321A2996C00170DF6 /* CCRefreshHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCRefreshHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DCD442D21A29DF600170DF6 /* CCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPickerView.m; sourceTree = "<group>"; };
-		3DCD442E21A29DF600170DF6 /* CCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPickerView.h; sourceTree = "<group>"; };
+		3DCD443421A2A07300170DF6 /* UIView+CCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CCExtension.h"; sourceTree = "<group>"; };
+		3DCD443521A2A07300170DF6 /* UIScrollView+CCRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CCRefresh.m"; sourceTree = "<group>"; };
+		3DCD443621A2A07300170DF6 /* UIView+CCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CCExtension.m"; sourceTree = "<group>"; };
+		3DCD443721A2A07300170DF6 /* UIScrollView+CCRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CCRefresh.h"; sourceTree = "<group>"; };
+		3DCD443821A2A07300170DF6 /* CCRereshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRereshHeader.m; sourceTree = "<group>"; };
+		3DCD443A21A2A07300170DF6 /* CCLoadingComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoadingComponent.m; sourceTree = "<group>"; };
+		3DCD443B21A2A07300170DF6 /* CCLoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoadingIndicator.m; sourceTree = "<group>"; };
+		3DCD443C21A2A07300170DF6 /* CCLoadingDots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLoadingDots.m; sourceTree = "<group>"; };
+		3DCD443D21A2A07300170DF6 /* CCLoadingComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoadingComponent.h; sourceTree = "<group>"; };
+		3DCD443E21A2A07300170DF6 /* CCLoadingDots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoadingDots.h; sourceTree = "<group>"; };
+		3DCD443F21A2A07300170DF6 /* CCLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLoadingIndicator.h; sourceTree = "<group>"; };
+		3DCD444021A2A07300170DF6 /* CCRereshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRereshHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,18 +61,44 @@
 		3DCD441521A2996C00170DF6 /* CCRefreshHeader */ = {
 			isa = PBXGroup;
 			children = (
-				3DCD442C21A29DF600170DF6 /* CCPickerView */,
+				3DCD443221A2A07300170DF6 /* CCRefreshHeader */,
 			);
 			path = CCRefreshHeader;
 			sourceTree = "<group>";
 		};
-		3DCD442C21A29DF600170DF6 /* CCPickerView */ = {
+		3DCD443221A2A07300170DF6 /* CCRefreshHeader */ = {
 			isa = PBXGroup;
 			children = (
-				3DCD442D21A29DF600170DF6 /* CCPickerView.m */,
-				3DCD442E21A29DF600170DF6 /* CCPickerView.h */,
+				3DCD443321A2A07300170DF6 /* Catogories */,
+				3DCD443821A2A07300170DF6 /* CCRereshHeader.m */,
+				3DCD443921A2A07300170DF6 /* Components */,
+				3DCD444021A2A07300170DF6 /* CCRereshHeader.h */,
 			);
-			path = CCPickerView;
+			name = CCRefreshHeader;
+			sourceTree = "<group>";
+		};
+		3DCD443321A2A07300170DF6 /* Catogories */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD443421A2A07300170DF6 /* UIView+CCExtension.h */,
+				3DCD443521A2A07300170DF6 /* UIScrollView+CCRefresh.m */,
+				3DCD443621A2A07300170DF6 /* UIView+CCExtension.m */,
+				3DCD443721A2A07300170DF6 /* UIScrollView+CCRefresh.h */,
+			);
+			path = Catogories;
+			sourceTree = "<group>";
+		};
+		3DCD443921A2A07300170DF6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD443A21A2A07300170DF6 /* CCLoadingComponent.m */,
+				3DCD443B21A2A07300170DF6 /* CCLoadingIndicator.m */,
+				3DCD443C21A2A07300170DF6 /* CCLoadingDots.m */,
+				3DCD443D21A2A07300170DF6 /* CCLoadingComponent.h */,
+				3DCD443E21A2A07300170DF6 /* CCLoadingDots.h */,
+				3DCD443F21A2A07300170DF6 /* CCLoadingIndicator.h */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCD442F21A29DF600170DF6 /* CCPickerView.m in Sources */,
+				3DCD444321A2A07300170DF6 /* CCRereshHeader.m in Sources */,
+				3DCD444221A2A07300170DF6 /* UIView+CCExtension.m in Sources */,
+				3DCD444621A2A07300170DF6 /* CCLoadingDots.m in Sources */,
+				3DCD444421A2A07300170DF6 /* CCLoadingComponent.m in Sources */,
+				3DCD444521A2A07300170DF6 /* CCLoadingIndicator.m in Sources */,
+				3DCD444121A2A07300170DF6 /* UIScrollView+CCRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
